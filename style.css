@@ -1,0 +1,82 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2C2C2C;
+}
+section {
+    display: grid;
+    justify-content: center;
+    margin: 5% auto;
+}
+header {
+    background-color: #7764df;
+    width: 375px;
+    height: 66px;
+    border-radius: 10px 10px 0 0;
+}
+main {
+    width: 375px;
+    height: 525px;
+    background-color: #F4F4F4;
+    padding: 20px;
+    border-radius: 0 0 10px 10px; 
+}
+label {
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 20px;
+}
+#valor{
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #0e0bec;
+    margin-bottom: 23px;
+    font-weight: bold;
+    
+}
+#resposta {
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+}
+h3{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+h4{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}    
+button {
+    width: 327px;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #0e0bec;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+#erro {
+    color: red;
+    display: none;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 15px;
+    color:#F4F4F4;
+    text-align: center;
+}
